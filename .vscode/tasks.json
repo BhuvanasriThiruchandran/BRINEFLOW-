@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run BrineFlow backend",
+			"type": "shell",
+			"command": "cd backend && ..\\.venv\\Scripts\\python.exe -u -c \"from app import app; app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)\"",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
